@@ -100,7 +100,7 @@ export const Footer: React.FC = () => {
             "
           >
 
-            <a
+            
               href="https://github.com"
               target="_blank"
               rel="noreferrer"
@@ -113,7 +113,7 @@ export const Footer: React.FC = () => {
               •
             </span>
 
-            <a
+            
               href="https://twitter.com"
               target="_blank"
               rel="noreferrer"
@@ -126,7 +126,7 @@ export const Footer: React.FC = () => {
               •
             </span>
 
-            <a
+            
               href="https://linkedin.com"
               target="_blank"
               rel="noreferrer"
@@ -155,18 +155,18 @@ export const Footer: React.FC = () => {
           >
 
             <p>
-              © 2026 Dev Stack. All rights reserved. 
+              © 2026 Dev Stack. All rights reserved.
             </p>
 
             <div className="flex items-center gap-3">
 
-              <span className="cursor-default">
+              <a href="#" className="hover:text-slate-700 transition-colors">
                 Privacy
-              </span>
+              </a>
 
-              <span className="cursor-default">
+              <a href="#" className="hover:text-slate-700 transition-colors">
                 Terms
-              </span>
+              </a>
 
             </div>
 
@@ -265,7 +265,7 @@ export const Footer: React.FC = () => {
                 "
               >
 
-                <a
+                
                   href="https://github.com"
                   target="_blank"
                   rel="noreferrer"
@@ -274,7 +274,7 @@ export const Footer: React.FC = () => {
                   GitHub
                 </a>
 
-                <a
+                
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer"
@@ -283,7 +283,7 @@ export const Footer: React.FC = () => {
                   Twitter
                 </a>
 
-                <a
+                
                   href="https://linkedin.com"
                   target="_blank"
                   rel="noreferrer"
@@ -317,21 +317,21 @@ export const Footer: React.FC = () => {
               <ul className="space-y-3.5 text-sm text-slate-500">
 
                 <li>
-                  <span className="cursor-default">
+                  <a href="#" className="hover:text-slate-900 transition-colors">
                     Home
-                  </span>
+                  </a>
                 </li>
 
                 <li>
-                  <span className="cursor-default">
+                  <a href="#" className="hover:text-slate-900 transition-colors">
                     Technologies
-                  </span>
+                  </a>
                 </li>
 
                 <li>
-                  <span className="cursor-default">
+                  <a href="#" className="hover:text-slate-900 transition-colors">
                     Projects
-                  </span>
+                  </a>
                 </li>
 
               </ul>
@@ -359,21 +359,21 @@ export const Footer: React.FC = () => {
               <ul className="space-y-3.5 text-sm text-slate-500">
 
                 <li>
-                  <span className="cursor-default">
+                  <a href="#" className="hover:text-slate-900 transition-colors">
                     About
-                  </span>
+                  </a>
                 </li>
 
                 <li>
-                  <span className="cursor-default">
+                  <a href="#" className="hover:text-slate-900 transition-colors">
                     Contact
-                  </span>
+                  </a>
                 </li>
 
                 <li>
-                  <span className="cursor-default">
+                  <a href="#" className="hover:text-slate-900 transition-colors">
                     Careers
-                  </span>
+                  </a>
                 </li>
 
               </ul>
@@ -401,15 +401,15 @@ export const Footer: React.FC = () => {
               <ul className="space-y-3.5 text-sm text-slate-500">
 
                 <li>
-                  <span className="cursor-default">
+                  <a href="#" className="hover:text-slate-900 transition-colors">
                     Privacy Policy
-                  </span>
+                  </a>
                 </li>
 
                 <li>
-                  <span className="cursor-default">
+                  <a href="#" className="hover:text-slate-900 transition-colors">
                     Terms of Service
-                  </span>
+                  </a>
                 </li>
 
               </ul>
@@ -443,13 +443,13 @@ export const Footer: React.FC = () => {
 
             <div className="flex items-center gap-6">
 
-              <span className="cursor-default">
+              <a href="#" className="hover:text-slate-700 transition-colors">
                 Privacy
-              </span>
+              </a>
 
-              <span className="cursor-default">
+              <a href="#" className="hover:text-slate-700 transition-colors">
                 Terms
-              </span>
+              </a>
 
             </div>
 
