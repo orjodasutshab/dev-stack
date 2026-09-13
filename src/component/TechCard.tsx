@@ -82,8 +82,11 @@ export const TechCard: React.FC<TechCardProps> = ({
           </span>
 
           {/* Rating (always shown with 1 decimal place, e.g. 4.9) */}
-          <span className="text-slate-800 text-xs font-bold flex items-center gap-1">
-            <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
+          <span
+            className="text-slate-800 text-xs font-bold flex items-center gap-1"
+            title={`Rated ${technology.rating.toFixed(1)} out of 5`}
+          >
+            <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" aria-hidden="true" />
             <span>{technology.rating.toFixed(1)}</span>
           </span>
         </div>
@@ -93,6 +96,11 @@ export const TechCard: React.FC<TechCardProps> = ({
           id={`add-btn-${technology.id}`}
           type="button"
           aria-disabled={isAdded}
+          aria-label={
+            isAdded
+              ? `${technology.name} already added to your stack`
+              : `Add ${technology.name} to your stack`
+          }
           onClick={(e) => {
             e.stopPropagation();
             onAddToStack(technology);
