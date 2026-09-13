@@ -133,35 +133,41 @@ export const Navbar: React.FC = () => {
 
           <div className="flex items-center gap-3 select-none">
 
-            <span
-              id="signin-text"
-              className="
-                text-xs sm:text-sm
-                font-semibold
-                text-slate-700
-                cursor-default
-              "
-            >
-              Sign In
-            </span>
+            <button
+  type="button"
+  id="signin-btn"
+  className="
+    text-xs sm:text-sm
+    font-semibold
+    text-slate-700
+    hover:text-slate-900
+    transition-colors
+    cursor-pointer
+  "
+>
+  Sign In
+</button>
 
-
-            <span
-              id="signup-pill"
-              className="
-                bg-[#ec4899]
-                text-white
-                text-xs sm:text-sm
-                font-medium
-                px-4 py-1.5
-                sm:px-5 sm:py-2
-                rounded-full
-                shadow-xs
-                cursor-default
-              "
-            >
-              Sign Up
-            </span>
+<button
+  type="button"
+  id="signup-btn"
+  className="
+    bg-brand-gradient
+    text-white
+    text-xs sm:text-sm
+    font-medium
+    px-4 py-1.5
+    sm:px-5 sm:py-2
+    rounded-full
+    shadow-xs
+    hover:opacity-90
+    active:scale-[0.98]
+    transition-all
+    cursor-pointer
+  "
+>
+  Sign Up
+</button>
 
           </div>
 
