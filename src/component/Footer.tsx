@@ -100,7 +100,7 @@ export const Footer: React.FC = () => {
             "
           >
 
-            
+            <a
               href="https://github.com"
               target="_blank"
               rel="noreferrer"
@@ -113,7 +113,7 @@ export const Footer: React.FC = () => {
               •
             </span>
 
-            
+            <a
               href="https://twitter.com"
               target="_blank"
               rel="noreferrer"
@@ -126,7 +126,7 @@ export const Footer: React.FC = () => {
               •
             </span>
 
-            
+            <a
               href="https://linkedin.com"
               target="_blank"
               rel="noreferrer"
@@ -265,7 +265,7 @@ export const Footer: React.FC = () => {
                 "
               >
 
-                
+                <a
                   href="https://github.com"
                   target="_blank"
                   rel="noreferrer"
@@ -274,7 +274,7 @@ export const Footer: React.FC = () => {
                   GitHub
                 </a>
 
-                
+                <a
                   href="https://twitter.com"
                   target="_blank"
                   rel="noreferrer"
@@ -283,7 +283,7 @@ export const Footer: React.FC = () => {
                   Twitter
                 </a>
 
-                
+                <a
                   href="https://linkedin.com"
                   target="_blank"
                   rel="noreferrer"
